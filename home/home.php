@@ -2,18 +2,18 @@
 <html>
 <head>
     <title>Fórum Dev - Home</title>
-    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <div class="container"> 
+        <div class="container">
             <h1>Fórum Dev</h1>
             <nav>
                 <?php if (isset($_SESSION['usuario'])) : ?>
                     <a href="logout.php">Sair</a>
                     <a href="grupos.php">Grupos</a>
-                    <a href="perfil.php">Perfil</a> 
-                <?php endif; ?> 
+                    <a href="perfil.php">Perfil</a>;
+                <?php endif; ?>
             </nav>
         </div>
     </header>
@@ -21,7 +21,7 @@
     <main class="container">
         <?php if (!isset($_SESSION['usuario'])) : ?>
             <div class="login-links">
-                <a href="login.php">Entrar</a> 
+                <a href="login.php">Entrar</a>
                 <a href="cadastro.php">Cadastrar</a>
             </div>
         <?php endif; ?>

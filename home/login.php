@@ -2,11 +2,11 @@
 <html>
 <head>
     <title>Login - Fórum Dev</title>
-    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/style.css">;
 </head>
 <body>
     <header>
-        <div <class="container">
+        <div class="container">
             <h1>Fórum Dev</h1>
         </div>
     </header>
